@@ -1,0 +1,126 @@
+.modal {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(13, 11, 43, 0.486);
+    z-index: 20;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_active {
+    display: flex;
+}
+
+.modal__content {
+    background-color: var(--col-white);
+    color: var(--col-dark);
+    padding: 25px 40px;
+    box-sizing: border-box;
+    min-width: 375px;
+
+}
+
+.modal__content-heading {
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: center;
+
+}
+
+.modal__content-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__content-form label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 17px;
+
+}
+
+.modal__content-form input,
+.modal__content-form select {
+    padding: 17px 25px;
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 1);
+    border: 1px solid rgba(225, 225, 225, 1);
+    border-radius: 5px;
+}
+
+.modal__content-form input:focus,
+.modal__content-form select:focus {
+    outline: 1px solid var(--col-orange);
+}
+
+.modal__content-form-radio {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+
+}
+
+.modal__content-form-radio input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.modal__content-form-radio span {
+    width: 52px;
+    height: 28px;
+    background-color: rgba(239, 239, 239, 1);
+    border-radius: 53px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2px;
+    justify-content: flex-start;
+
+}
+
+.modal__content-form-radio input:checked+span {
+    justify-content: flex-end;
+}
+
+.modal__content-form-radio span span {
+    height: 24px;
+    width: 24px;
+    background-color: var(--col-orange);
+    display: block;
+}
+
+.modal__content-form-btns {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin:17px 0 ;
+}
+
+.modal__content-form-btn {
+    border-radius: 5px;
+    border: 1px solid var(--col-dark);
+    padding: 20px 50px;
+    box-sizing: border-box;
+    color: var(--col-dark);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.modal__content-form-save{
+    padding: 18px 0 ;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

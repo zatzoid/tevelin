@@ -1,0 +1,103 @@
+@import url(./index.css);
+@import url(./blocks/aside.css);
+@import url(./blocks/header.css);
+@import url(./blocks/footer.css);
+
+.content {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content__path {
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+
+
+}
+
+.content__nav {
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+
+
+.content__nav-btn {
+    padding: 9.5px 31px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.95px;
+    text-align: center;
+    height: fit-content;
+
+
+
+}
+
+
+
+.content__main-addBtn {
+    margin-top: 18px;
+    padding: 18px 48px;
+}
+
+.table {
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    border-spacing: 0;
+
+}
+
+.table th:first-of-type,
+table td:first-of-type {
+    width: 20%;
+}
+
+.table th,
+table td {
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+
+
+}
+
+.table th {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16.9px;
+
+
+}
+
+.table .table-cb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.table-noname {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+
+
+
+}
+
+.table__white {
+    background-color: var(--col-white);
+    border-radius: 5px;
+    overflow: hidden;
+}

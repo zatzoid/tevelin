@@ -1,0 +1,35 @@
+.header {
+    padding: 28px 30px 28px 15px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: var(--max-width);
+    margin:0 auto;
+    background-color: var(--col-white);
+}
+
+.header__logo {
+    display: flex;
+    gap: 11px;
+}
+
+.header__logo-v {
+    border-radius: 4px;
+    background-color: var(--col-orange);
+    color: var(--col-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 3px;
+    box-sizing: border-box;
+    font-size: 12.08px;
+    font-weight: 450;
+    line-height: 15.48px;
+    height: fit-content;
+    transform: translateY(-17px);
+}
+
+.header__btn {
+    margin-left: auto;
+}

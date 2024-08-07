@@ -1,0 +1,28 @@
+.footer {
+    margin-top: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: var(--col-white);
+}
+
+.footer__lastvisit {
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.footer__lastvisit p {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    color: var(--col-grey);
+}
+
+.footer__link {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--col-orange);
+}
